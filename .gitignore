@@ -1,0 +1,7 @@
+.buildpath
+.project
+.settings/org*
+composer.lock*
+/vendor
+/.idea
+*.php~

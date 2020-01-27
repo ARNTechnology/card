@@ -63,4 +63,5 @@ $card=new VirtualCard($testCardNumber, $cardExpiration, '1234');//throws Cvv2Exc
 [release]: https://packagist.org/packages/arntech/card
 [license]: https://github.com/ARNTechnology/card/blob/master/LICENSE
 [php]: https://php.net
+[composer]: http://getcomposer.org/
 [downloads]: https://packagist.org/packages/arntech/card

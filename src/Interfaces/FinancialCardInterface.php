@@ -1,12 +1,17 @@
 <?php
-
+/**
+ * Copyright (c) 2020
+ * Alexandru Negrilã (alex-codes@arntech.ro) - ARN TECHNOLOGY
+ */
 
 namespace ARNTech\Card\Interfaces;
 
-use ARNTech\Card\Model\CardNumber;
-use ARNTech\Card\Model\Expiration;
 
-interface CardInterface extends \JsonSerializable
+use ARNTech\Card\Model\Financial\CardNumber;
+use ARNTech\Card\Model\Financial\Expiration;
+use \JsonSerializable;
+
+interface FinancialCardInterface extends JsonSerializable
 {
     /**
      * Get the card number

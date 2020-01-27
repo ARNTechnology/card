@@ -7,7 +7,7 @@
 namespace ARNTech\Card\Exception;
 
 
-class ExpirationException extends BaseCardException
+class FinancialCardNumberException extends CardNumberException
 {
 
 }

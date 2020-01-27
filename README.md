@@ -51,3 +51,10 @@ echo $card->isExpired()?'true':'false';//prits false
 echo json_encode($card);//prints {"number":"4482xxxxxxxx2314","expiration":"02-2022","cvv2":"123"}
 $card=new VirtualCard($testCardNumber, $cardExpiration, '1234');//throws Cvv2Exception
 ```
+
+
+[badge-source]: https://img.shields.io/badge/source-ramsey/uuid-blue.svg?style=flat-square
+[badge-release]: https://img.shields.io/packagist/v/ramsey/uuid.svg?style=flat-square&label=release
+[badge-license]: https://img.shields.io/packagist/l/ramsey/uuid.svg?style=flat-square
+[badge-php]: https://img.shields.io/packagist/php-v/ramsey/uuid.svg?style=flat-square
+[badge-downloads]: https://img.shields.io/packagist/dt/ramsey/uuid.svg?style=flat-square&colorB=mediumvioletred

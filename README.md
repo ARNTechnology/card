@@ -58,3 +58,9 @@ $card=new VirtualCard($testCardNumber, $cardExpiration, '1234');//throws Cvv2Exc
 [badge-license]: https://img.shields.io/packagist/l/arntech/card.svg?style=flat-square
 [badge-php]: https://img.shields.io/packagist/php-v/arntech/card.svg?style=flat-square
 [badge-downloads]: https://img.shields.io/packagist/dt/arntech/card.svg?style=flat-square&colorB=mediumvioletred
+
+[source]: https://github.com/ARNTechnology/card
+[release]: https://packagist.org/packages/arntech/card
+[license]: https://github.com/ARNTechnology/card/blob/master/LICENSE
+[php]: https://php.net
+[downloads]: https://packagist.org/packages/arntech/card

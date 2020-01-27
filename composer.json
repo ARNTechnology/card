@@ -1,0 +1,33 @@
+{
+  "name": "arntech/card",
+  "type": "library",
+  "description": "ARNTech card helping library.",
+  "keywords": [
+    "card",
+    "cc",
+    "cvv",
+    "cvv2",
+    "virtual",
+    "virtual card"
+  ],
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Alexandru Negrila",
+      "email": "alex-codes@arntech.ro",
+      "homepage": "https://github.com/alxnegrila"
+    }
+  ],
+  "require": {
+    "php": "^5.6 || ^7",
+    "arntech/utils": "*"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ARNTech\\Card\\": "src/"
+    }
+  }
+}

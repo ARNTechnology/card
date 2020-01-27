@@ -1,10 +1,13 @@
 <?php
+/**
+ * Copyright (c) 2020
+ * Alexandru Negrilã (alex-codes@arntech.ro) - ARN TECHNOLOGY
+ */
 
-
-namespace ARNTech\Card\Model\Virtual;
+namespace ARNTech\Card\Model\Financial\Virtual;
 
 use ARNTech\Card\Exception\Cvv2Exception;
-use ARNTech\Card\Model\CardNumber;
+use ARNTech\Card\Model\Financial\CardNumber;
 use InvalidArgumentException;
 
 class Cvv2
@@ -17,6 +20,7 @@ class Cvv2
     /**
      * Cvv2 constructor.
      * @param string|int $number
+     * @throws Cvv2Exception
      */
     public function __construct($number)
     {
@@ -48,11 +52,11 @@ class Cvv2
             $type = intval($type);
         }
 
-        if (!is_int($type) || !isset(CardNumber::$names[$type])) {
+        if (!is_int($type) || !isset(CardNumber::$vendors[$type])) {
             throw new InvalidArgumentException("Invalid Card type provided.");
         }
         $len = strlen($this->number);
-        if (($len == 4 && CardNumber::TYPE_AMEX) || $len == 3) {
+        if (($len == 4 && $type == CardNumber::VENDOR_AMEX) || $len == 3) {
             return true;
         }
         return false;

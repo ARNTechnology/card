@@ -53,8 +53,8 @@ $card=new VirtualCard($testCardNumber, $cardExpiration, '1234');//throws Cvv2Exc
 ```
 
 
-[badge-source]: https://img.shields.io/badge/source-ramsey/uuid-blue.svg?style=flat-square
-[badge-release]: https://img.shields.io/packagist/v/ramsey/uuid.svg?style=flat-square&label=release
-[badge-license]: https://img.shields.io/packagist/l/ramsey/uuid.svg?style=flat-square
-[badge-php]: https://img.shields.io/packagist/php-v/ramsey/uuid.svg?style=flat-square
-[badge-downloads]: https://img.shields.io/packagist/dt/ramsey/uuid.svg?style=flat-square&colorB=mediumvioletred
+[badge-source]: https://img.shields.io/badge/source-arntech/card-blue.svg?style=flat-square
+[badge-release]: https://img.shields.io/packagist/v/arntech/card.svg?style=flat-square&label=release
+[badge-license]: https://img.shields.io/packagist/l/arntech/card.svg?style=flat-square
+[badge-php]: https://img.shields.io/packagist/php-v/arntech/card.svg?style=flat-square
+[badge-downloads]: https://img.shields.io/packagist/dt/arntech/card.svg?style=flat-square&colorB=mediumvioletred
